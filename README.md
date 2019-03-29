@@ -1,18 +1,11 @@
-# Aplicación financiera
+## Resumen
+En este proyecto se busca dar una propuesta certera y clara al banco que nos ofrece la oportunidad de rediseñar su prototipo todo esto con el objetivo de que los usuarios se sientan identificados y relacionados con la app así como satisfacer sus necesidades teniendo en cuenta que el objetivo de la aplicación es ahorrar. ¿Pero que es el ahorro para los usuarios? Esta fue la principal incógnita que vimos en el progreso de la investigación 
 
-## Preámbulo
+## Contexto
 
-El banco más importante del país ha lanzado una nueva aplicación móvil al
-mercado para que sus usuarios puedan visualizar sus gastos mensuales y fomentar
-el ahorro. Luego de tener algunos meses en el mercado, el
-equipo detrás de este nuevo producto ha decidido contratar a una
-agencia/consultora de UX que los ayude a definir la dirección y evolución del
-producto. Tú has sido elegida como la consultora líder de UX y se te ha asignado el proyecto para hacer un diagnóstico, evaluar el desempeño de la aplicación y proponer los cambios necesarios para optimizar el producto.
+Para contextualizar el presente trabajo se analiza la relación que se tiene entre la cultura financiera y el rango de edad aquí en México, y cómo impactaría en sus vidas el acceso a una aplicación gratuita que les promueva esta cultura de ahorro. Hablando en términos financieros, una población que no sabe cómo planear sus ingresos y gastos, que no tiene una cultura del ahorro y desconoce cómo endeudarse sin afectar sus finanzas, no puede mejorar su bienestar social y, por consiguiente, no contribuye al desarrollo económico de su país. Por ello, resulta primordial profundizar un poco más sobre este tema para que cada uno de nosotros adopte un rol más activo y proactivo respecto al tema señalado. 
 
-
-## Introducción
-
-### Contexto
+En la investigación que se realiza sobre cultura financiera en México (BANAMEX-UNAM, 2008), se detectó que sólo el 18.5% de los mexicanos realiza algún tipo de planeación y presupuesto de sus recursos, lo que como ya se ha mencionado previamente, se debe también a la falta de cultura financiera que a su vez es consecuencia de la escasa o nula educación financiera que reciben las personas a lo largo de su vida. 
 
 Durante la primera semana de entendimiento de los requerimientos, el Product
 Manager del equipo les brinda el contexto:
@@ -50,189 +43,207 @@ Manager del equipo les brinda el contexto:
 
 ![preview app de finanzas](https://lh3.googleusercontent.com/WyfUPurRuoXyyeZScQtdLhk063ZozToVlujoljul3TDwJW5KZy3Om_LvuB-TB9IcG2r_BCSpoXtXL-bZjIeGBFxQmL4GYEM2QXnQovq6EvixYaO_Z5-gFMvljM9jye7bVofendMteBI)
 
-### Recursos
 
-En esta carpeta de [Google Drive](https://drive.google.com/drive/u/0/folders/1NWf4701uKDsCK0eLNI8RXEocrI1g1zqd) y en los siguientes
-links, encontrarán:
+## Problema
 
-- Los user persona primario y secundario del proyecto
-- Los user flows iniciales y actuales del proyecto del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/Gr5GEIRrjF9eIplIeEHUSJNt/proyecto-2-banca?node-id=0%3A477)
-  , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/e9h245e)
-- Funnel Analytics de los primeros 6 meses del MVP
-- Data de uso del MVP de los primeros 6 meses
-- [Landing Page](http://tus-finanzas.pagedemo.co/) inicial del producto
+Como Ux designer se nos asignó la tarea de hacer un rediseño del prototipo que nos da una empresa ficticia con el contexto ya mencionado, con la data que obtuvimos y con nuestro trabajo de campo realizar los cambios necesarios para generar una app centrada en nuestro usuario y sus necesidades.
 
-## Objetivos de aprendizaje
+Sabemos que quiere adentrarse a los usuarios que son jóvenes o que se encuentran en el rango de edades de 18 a 33 años ya este rango esta entrando al sector financiero.
 
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Muchas de ustedes terminarán trabajando en productos
-existentes y deben estar familiarizadas con el proceso de analizar la data del
-producto, complementar con investigación de campo y con esto definir una
-estrategia de crecimiento del producto. Puedes leer sobre el trabajo de un
-UX Designer en rediseño este [blogpost](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d).
+![problema](https://i.ibb.co/c2VL4rG/fish.jpg)
 
-En este proyecto pondrás en práctica habilidades de: análisis de datos,
-investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
-de componentes de la interfaz y user testing.
+## Objetivos
 
-## Consideraciones generales
+**General**
+Generar una propuesta que resulte para el cliente valiosa, sustentando con recolección, análisis y arquitectura de información, para un diseño de prototipo que se enfoque en el usuario.
 
-Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
-desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
-de cualquier proyecto y su desarrollo es clave para el éxito. Estas habilidades
-no sólo son utilizadas a la hora de entender al usuario, sino a lo largo de toda
-la ejecución, es decir desde cómo planificamos hasta nuestra presentación al
-cliente.
+**Específicos**
+Obtener un mayor contexto acerca de los millennials que es el público que se desea abarcar.
+A través de los testeos de campo que se realizaron, generar hipótesis de los posibles problemas que tiene el usuario en el prototipo.
+Formular una propuesta de valor sustentada con el conocimiento de la competencia y el usuario.
+Obtener una validación exitosa acerca del nuevo prototipo.
 
-Anteriormente, nos habíamos concentrado en el desarrollo de tu curiosidad y
-empatía, practicado cómo relacionarte con el cliente y el usuario. Siempre debes
-pensar quiénes son y qué necesitan, y no enfocarte en lo que tú consideras que
-podría ser la solución correcta. Se trata de entender que nosotros no somos el
-usuario, y debemos hacer el ejercicio empático de comprenderlo a él y a nuestro
-cliente.
+![objetivos](https://i.ibb.co/b5chBN8/smart.jpg)
 
-Este proyecto, a diferencia de otros, no debes partir desde cero generando un
-prototipo, sino investigar lo que el banco ya ha construido y con base en eso
-proponer un nueva alternativa. Para esto, te aconsejamos comenzar por investigar
-la información que tienes; entender qué datos ya manejas y qué elementos
-necesitas averiguar para completar tu proyecto. De esta manera, tu planificación
-es muy relevante para comprender la problemática.
+## Definicion usuario
+**Proto-persona**
+La proto-persona que desarrollé fue formada en el criterio inicial que se forma ante el contexto que se investigó.
 
-Al planificar podrás comprender de qué manera estructurar tu proyecto y qué
-elementos debes investigar, te aconsejamos que consideres tiempo para poder iterar sobre las
-posibilidades de mejora y también para preparar la presentación.
+![protopersona](https://i.ibb.co/wWYfTsv/protopersona.jpg)
 
-La calidad del proyecto depende totalmente de tu proactividad y autoaprendizaje,
-si no conoces plataformas financieras parte por investigar sobre ellas. No
-esperes que los contenidos lleguen a ti, más bien busca todo lo que necesites
-para poder encontrar la mejor solución.
+**User-Persona**
+La User- persona se estructuró de acuerdo a la información que se obtuvo a través de los Testeos que se realizaron en el trabajo de campo.
 
-Parte importante de tu trabajo como UX designer es tomar decisiones.
-Efectivamente existen múltiples herramientas que puedes utilizar, debes
-comprender para qué y con qué finalidad escoges usar cada una de ellas. Siempre
-piensa que debes justificar todo gasto con tu con consultora y el cliente, cada
-desición que tomes en el proyecto debe ser fundamentada, no sigas pasos
-mecánicos por seguirlos, cuestiónate constantemente.
+![userpersona](https://i.ibb.co/bHgfLXJ/userpersona.jpg)
 
-Por último, considera que la calidad de tu presentación es tan importante como
-el proceso completo. Un proyecto que no se aprecia al ser presentado no es un
-buen proyecto. Si vas a utilizar una ppt frente a un cliente, se prolija en el
-diseño de tus láminas y en la información que entregas, también busca la mejor
-manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
-cliente. En la presentación no deben ocurrir errores.
+## Escenarios
+### Visitas de campo
+Durante la visita de campo que realizamos el día 26 de Marzo del 2019, resolvimos como squat los Pains & Gains de la app para así obtener algunos insights de mayor relevancia para tomar en consideración.
 
-## Entrega
+![painsgains](https://i.ibb.co/FHzG7k0/pain-gain.jpg)
 
-El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
-lo siguiente:
+ 
+### Análisis de Heurísticas
 
-README.md  detallando:
+**Checklist**
+- [x] Visibilidad del Estado del Sistema: 
+* Muestra barras de proceso de información, 
+* Muestran mensajes de confirmación que indican que la tarea se ha finalizado con éxito.
 
-* Objetivos iniciales del proyecto
-* Problemas encontrados tanto a nivel de negocio como a nivel de usuario
-* Recomendaciones de próximos pasos para el banco con respecto al app (estas
-  recomendaciones tendrán que ser sustentadas por tu investigación):
-  * Qué modificaciones se deberían hacer
-  * Cuáles deberían ser los próximos desarrollos
-  * En qué se debería invertir el presupuesto de marketing
-* De acuerdo al punto anterior, de requerirse cambios y desarrollos nuevos,
-  estos deberán ser diseñados y entregados en un prototipo de alta definición.
-* Link de Zeplin, InVision inspects o Marvel Hand-offs para compartir tus
-  diseños con desarrolladores
+- [x] Consistencia entre el sistema y el mundo real: 
+*  Código lingüistico igual al del usuario, 
+*  Presentación lógica de la interfaz
 
-Un video en Loom de máximo 5 minutos explicando tu documento.
-* Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución propuesta.
+- [x] El usuario es libre y tiene control:
+* Facilidad para hacer y deshacer
+* Facilidad para desplazarse dentro del prototipo
 
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso.
+- [ ] Consistencia y estándares:
+* Los objetos están organizados de forma coherente
+* Utiliza íconos convencionales
 
-### Hacker edition
+- [ ] Prevención de errores:
+* Presenta señales para prevenir errores
 
-Para el hacker edition puedes elegir una o varias de estas opciones:
+- [ ] Mejor reconocer que memorizar:
+* Muestra una interfaz amigable e intuitiva
+* Relación con los objetos y las funciones
 
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
-  fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
-  en un documento adicional (en el formato que prefieras).
-- Investiga sobre chatbots y sustenta si sería bueno incluir uno en alguna parte
-  del journey del uso del producto. Si crees que un chatbot añadiría valor,
-  prototípalo usando [Botsociety](http://bit.ly/ux-chatbot).
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Utiliza los diseños exportados en Zeplin, Handoffs o Inspects y desarróllalos
-  utilizando las tecnologías web que aprendiste en el common core: HTML, CSS y
-  JS. Puedes usar los frameworks que quieras. Recuerda que la aplicación tiene
-  que ser mobile-friendly. Despliega el código en GitHub Pages o Heroku.
-- Escribe un post en Medium contando tu proceso de investigación.
-- Crea un video mostrando el demo del app, aquí algunos ejemplos:
-  - [Genius Scan](https://www.youtube.com/watch?v=6zLP2iOPmMk)
-  - [Nequi](https://www.youtube.com/watch?v=BDLAXvSQCZ8)
-  - [Simple Bank](https://www.youtube.com/watch?v=0eqD5o6422M)
-  - [Pocket](https://www.youtube.com/watch?v=MoJHYNKmS2U)
+- [x] Flexibilidad y eficiencia de uso:
+* Presenta dos interfaces(novato y experto)
+* Muestra atajos para acciones frecuentes(exp.)
 
-## Otras consideraciones
+- [x] Diseño estético y minimalista:
+* Muestra información necesaria
+* La presentación de la interfaz presenta armonía
 
-### 1) Planeamiento y presupuesto
+- [ ] Ayuda al usuario a reconocer, diagnosticar y recuperarse de los errores:
+* Indica errores a través de mensajes o sonidos
+* Indica mensajes de avances y éxito.
 
-En el reto del marketplace elegiste las tareas que podías
-realizar deacuerdo a una lista con puntajes predeterminados que te proporcionamos. Para este reto,
-la lista de tareas, el valor en puntos de cada tarea y el presupuesto total
-de las actividades a realizar lo crearás tú y lo tendrás que sustentar con tu
-coach. Adicionalmente, deberás sustentar con tu coach qué entregables harás
-llegar al banco al final de tu investigación y por qué. El coach te aprobará
-estos entregables o te dará feedback para mejorarlos.
+- [ ] Ayuda y documentación:
+* El botón de ayuda siempre está presente
+* Presenta FAQ o videos tutoriales.
 
-Cuando hagas tu presupuesto y pienses en los entregables recuerda que el tiempo
-de desarrollo de este proyecto es de dos semanas. También, recuerda qué partes
-te tomaron más tiempo en el desarrollo del proyecto 1 y los aprendizajes que
-tuviste al desarrollar el proyecto 1.
+### Insights
+Logramos establecer Pains & Gains del prototipo y crear a raíz de eso con un Value Proposition Canvas  que sería nuestro diferenciador de la competencia.
 
-### 2) Prototipo de alta fidelidad
+![value](https://i.ibb.co/JryWVys/value.jpg)
 
-Existen varias herramientas que puedes utilizar para crear diseñar el producto,
-en este caso el diseño viene en Figma y el prototipo en Marvel, así que puedes
-seguir usando esas herramientas. Sin embargo, eres libre de utilizar otras
-como Adobe XD e Invision. Para el prototipo intenta utilizar Marvel o Invision,
-ya que para el testing tendrás que usar una herramienta llamada
-[Maze](https://maze.design/) que funciona mejor con estas.
+Algunos puntos clave de los hallazgos en el trabajo de campo fueron:
+El usuario no entendía el objetivo de la aplicación. 
+No fomentaba por ello el ahorro.
+A los usuarios novatos les generaba conflictos los botones, ya que no entendían el concepto a pesar de que tiene la descripción.
+Al no presionar el botón correcto no arrojaba mensajes de errores descriptivos por lo cual no sabían cómo proceder.
+La mayoría de los jóvenes no tiene motivación a ahorrar, así que si les gustó el que fuera a base de metas u objetivos.
+Con respecto al análisis de las heurísticas de Nielsen, se identificó que se queda corto en los siguientes puntos:
 
-Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
-como: contraste, alineación, jerarquía, entre otros.
+* Consistencia y estándares: A pesar de que sea un prototipo de una app de banco, no se asemeja por los botones que se encuentran en la parte inferior central, ya que para el usuario resultó confuso generar la interacción. De igual forma el ícono que se encuentra en la parte de ahorro no promueve al ahorro, por lo regular la gente lo relaciona con los íconos de cochinitos, ya que desde nuestra infancia nos explicaron que eso era ahorrar.
 
-## Evaluación
+* Prevención de errores: En este punto notamos que los usuarios hacían clicks innecesarios debido a que no había un instructivo claro al inicio o la intuición no funciono por que a pesar de que su diseño es sencillo, los botones cambian en cuanto a lo tradicional.
 
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
+* Mejor reconocer, que memorizar: En cuanto al ícono que parecía de notificaciones no arrojaba alguna interacción, los usuarios también mencionan que les interesa saber de qué banco era, ya que depende la decisión de descargar esta app de su nómina. Otro punto importante es que se les hizo muy sencilla.
 
-### UX Design
+*  Ayuda al usuario a reconocer, diagnosticar y recuperarse de los errores: A los jóvenes que entrevistamos de 18 a 33 años no se les generó mayor complicación, sólo uno un chico que se tardó un poco más, lo que notamos fue que al querer investigar haciendo clicks a pesar de que les aparecía en azul donde tenían que presionar no lo hacían.
+* Ayuda y documentación: En este punto pudimos verificar que muchos no tenían ni idea de como ingresar pero se les hizo muy sencillo, quizá únicamente al inicio de la aplicación para saber un instructivo sencillo.
 
-|Habilidad|
-|:---|
-|User centricity| 
-|Planificación| 
-|Entrevistas y testing|
-|Observación|
-|Síntesis de resultados|
-|Flujos de usuario|
-|Arquitectura de la información|
-|Prototyping|
-|Business mindset|
-|Visual Design|
+### Casos de uso
+### Journey Map
+### Storytelling
 
-### Soft skills
 
-|Habilidad|
-|:---|
-|Planificación y organización|
-|Autoaprendizaje|
-|Solución de Problemas|
-|Dar y recibir feedback|
-|Adaptabilidad|
-|Trabajo en equipo (trabajo colaborativo y responsabilidad)|
-|Comunicación eficaz|
-|Presentaciones|
+
+### Benchmark
+
+Aplicaciones para ahorrar. El objetivo de este análisis es buscar qué es lo que les atrae en cuestión de ahorro, pero de igual forma buscaremos algunas políticas bancarias para compaginar el pensamiento bancario e institucional para no perder formalidad.
+Realizamos un benchmark conociendo algunas apps que nos pueden ayudar y que tienen buen prestigio en la categoría que investigamos.
+
+![benchmark](https://i.ibb.co/JryWVys/value.jpg)
+
+Fintonic: La app ideal para ahorrar y organizar tu dinero, con alertas que nadie te da.
+4.4 estrellas
+Beneficios: 
+Primera impresión:
+Target:
+Contenido:
+Confianza:
+Proceso de registro:
+Proceso de transferencia:
+Dispositivos:
+
+Quejas:
+-Mala experiencia de uso
+-mala respuesta a bugs
+-Se tienen que comunicar al equipo técnico.
+-Sin respuesta de soporte.
+-Movimientos perdidos
+-mov interbancarios los percibe como gastos por comisión
+-no se pueden aplicar manualmente los gastos y conceptos por pagos en efectivo.
+-se tardan mucho para contestar en soporte técnico en whatsapp
+-se tarda en actualizar
+
+Sugerencias:
+-en las partidas el nombre de comercio desde un inicio en el desglose de gastos
+-modo darkness
+-etiquetas de inversión.
+-presupuestos mensuales y bimestrales
+-fiabilidad en el acceso de datos
+
+Tu Ahorro /Fundación Capital: Con tu ahorro puedes crear tu propio plan de ahorro a la medida de tu meta. 4.8 estrellas
+
+Sugerencias:
+-estaría padre ahorrar sin alguna meta ??
+-opción de ordenar las metas
+-afiliar tdd 
+
+Coinch: Ahorrando Juntos esta app puede dejar el motivo de tu ahorro, cantidad quieres ahorrar y ellos hacen el cálculo de lo que debes ahorrar cada día/mes/año, genera incentivos por ahorrar. 4.4 estrellas
+
+Quejas: 
+-pago para registrar gastos y no le registro nada
+- desconfianza de ahorro
+-boton de agrega fondos no funciona
+-la opción de que gastaste es de pago
+
+Sugerencias:
+-se debería poder eliminar algunos ahorros que al final de cuentas se descartan.
+
+SavePal: Ahorra dinero y consigue tus objetivos. Tiene estadísticas con gráfica circular con total ahorrado, total pendiente, objetivos totales de la evolución y una línea de tiempo 
+
+Quejas:
+no trae todos los tipos de monedas
+no veo relevancia tener otras dos gráficas de objetivos y ahorros.
+Sugerencias:
+tener opción de extraer dinero o modificar el monto que se lleva ahorrando hasta el momento
+
+MoneyHero: Ahorrar Dinero vincular cuentas
+
+Quejas:
+no se entiende como borrar algún ingreso 
+Sugerencias:
+-puede mejorar
+-ahorro a largo plazo (poner cta de ahorro para viajes, etc)
+-ahorrar en parejas
+-preestablecer categorías y seleccionarlas con un click
+-calculadora interna
+-incluir metas de ahorro
+-asignación de categorías con subcategorías para gráfica mejor detallada
+-modo presupuestos
+
+
+## Organización
+
+### Categorización
+
+### Mapa de conceptos clave
+
+### Mapa de contenidos
+
+## Navegación
+
+### Diagrama de Flujos
+
+### Prototipo de Baja Fidelidad
+
+### Prototipo de Alta Fidelidad
+
+##Wireframes
