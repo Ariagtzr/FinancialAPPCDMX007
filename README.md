@@ -1,3 +1,5 @@
+# Rediseño de App
+
 ## Resumen
 En este proyecto se busca dar una propuesta certera y clara al banco que nos ofrece la oportunidad de rediseñar su prototipo todo esto con el objetivo de que los usuarios se sientan identificados y relacionados con la app así como satisfacer sus necesidades teniendo en cuenta que el objetivo de la aplicación es ahorrar. ¿Pero que es el ahorro para los usuarios? Esta fue la principal incógnita que vimos en el progreso de la investigación 
 
@@ -48,9 +50,11 @@ Manager del equipo les brinda el contexto:
 
 Como Ux designer se nos asignó la tarea de hacer un rediseño del prototipo que nos da una empresa ficticia con el contexto ya mencionado, con la data que obtuvimos y con nuestro trabajo de campo realizar los cambios necesarios para generar una app centrada en nuestro usuario y sus necesidades.
 
-Sabemos que quiere adentrarse a los usuarios que son jóvenes o que se encuentran en el rango de edades de 18 a 33 años ya este rango esta entrando al sector financiero.
+Sabemos que quiere adentrarse a los usuarios que son jóvenes o que se encuentran en el rango de edades de 18 a 33 años, ya que esta generación está adentrandose al sector financiero y es muy importante mantenerlos.
 
 ![problema](https://i.ibb.co/c2VL4rG/fish.jpg)
+
+
 
 ## Objetivos
 
@@ -64,6 +68,15 @@ Formular una propuesta de valor sustentada con el conocimiento de la competencia
 Obtener una validación exitosa acerca del nuevo prototipo.
 
 ![objetivos](https://i.ibb.co/b5chBN8/smart.jpg)
+
+Objetivos y observaciones del cliente:
+
+- No es ideal que  nuestros usuarios tengan que usar dos aplicaciones, pero desarrollar con un  equipo nuevo que corra ágil nos da mayor libertad.
+- Y diseñamos y desarrollamos un ‘Producto  mínimo viable’ (MVP) en 2 meses en iOS.
+- Cualquier cosa que presentemos ya tiene que incorporar feedback de testing  con usuarios.
+- El Gerente General, animado por el crecimiento del número de  descargas que ha tenido el app, **quiere** duplicar el presupuesto de Facebook  Ads… Yo no estoy tan seguro; quisiera que como parte de su trabajo estas  próximas dos semanas, entendamos ese punto también.
+
+
 
 ## Definicion usuario
 **Proto-persona**
@@ -147,12 +160,6 @@ Con respecto al análisis de las heurísticas de Nielsen, se identificó que se 
 *  Ayuda al usuario a reconocer, diagnosticar y recuperarse de los errores: A los jóvenes que entrevistamos de 18 a 33 años no se les generó mayor complicación, sólo uno un chico que se tardó un poco más, lo que notamos fue que al querer investigar haciendo clicks a pesar de que les aparecía en azul donde tenían que presionar no lo hacían.
 * Ayuda y documentación: En este punto pudimos verificar que muchos no tenían ni idea de como ingresar pero se les hizo muy sencillo, quizá únicamente al inicio de la aplicación para saber un instructivo sencillo.
 
-### Casos de uso
-### Journey Map
-### Storytelling
-
-
-
 ### Benchmark
 
 Aplicaciones para ahorrar. El objetivo de este análisis es buscar qué es lo que les atrae en cuestión de ahorro, pero de igual forma buscaremos algunas políticas bancarias para compaginar el pensamiento bancario e institucional para no perder formalidad.
@@ -229,7 +236,9 @@ Sugerencias:
 -asignación de categorías con subcategorías para gráfica mejor detallada
 -modo presupuestos
 
-
+### Casos de uso
+### Journey Map
+### Storytelling
 ## Organización
 
 ### Categorización
@@ -246,4 +255,4 @@ Sugerencias:
 
 ### Prototipo de Alta Fidelidad
 
-##Wireframes
+## Wireframes
