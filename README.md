@@ -1,7 +1,7 @@
 # Rediseño de App
 
 ## Resumen
-En este proyecto se busca dar una propuesta certera y clara al banco que nos ofrece la oportunidad de rediseñar su prototipo todo esto con el objetivo de que los usuarios se sientan identificados y relacionados con la app así como satisfacer sus necesidades teniendo en cuenta que el objetivo de la aplicación es ahorrar. ¿Pero que es el ahorro para los usuarios? Esta fue la principal incógnita que vimos en el progreso de la investigación 
+En este proyecto se busca dar una propuesta certera y clara al banco que nos ofrece la oportunidad de rediseñar su prototipo todo esto con el objetivo de que los usuarios se sientan identificados y relacionados con la app así como resolver sus necesidades teniendo en cuenta que el objetivo de la aplicación es ahorrar. ¿Pero qué es el ahorro para los usuarios de México? Esta fue una de las preguntas que se investigan y se pretende en el proyecto hacer un rediseño enfocado totalmente al usuario, una arquitectura de la información correcta, y el análisis de toda la información que obtengamos que nuestros usuarios. Esto con el fin de que nuestra propuesta genere un mayor impacto y que al usuario le haga más sentido, y retroalimentar de igual forma el prototipo creado para nuevas modificaciones.
 
 ## Contexto
 
@@ -9,8 +9,7 @@ Para contextualizar el presente trabajo se analiza la relación que se tiene ent
 
 En la investigación que se realiza sobre cultura financiera en México (BANAMEX-UNAM, 2008), se detectó que sólo el 18.5% de los mexicanos realiza algún tipo de planeación y presupuesto de sus recursos, lo que como ya se ha mencionado previamente, se debe también a la falta de cultura financiera que a su vez es consecuencia de la escasa o nula educación financiera que reciben las personas a lo largo de su vida. 
 
-Durante la primera semana de entendimiento de los requerimientos, el Product
-Manager del equipo les brinda el contexto:
+Para nuestra investigación nuestro PM nos brindó el contexto de cómo se inicio este proyecto y la data de seis meses:
 
 >“Todo empezó hace un año cuando vimos que en EEUU y Europa estaban saliendo
   nuevas aplicaciones financieras que nos llamaron la atención. Unas se enfocan
@@ -45,14 +44,32 @@ Manager del equipo les brinda el contexto:
 
 ![preview app de finanzas](https://lh3.googleusercontent.com/WyfUPurRuoXyyeZScQtdLhk063ZozToVlujoljul3TDwJW5KZy3Om_LvuB-TB9IcG2r_BCSpoXtXL-bZjIeGBFxQmL4GYEM2QXnQovq6EvixYaO_Z5-gFMvljM9jye7bVofendMteBI)
 
+Para entender un poco el contexto se encontró una investigación que se dirigía más hacia la gran brecha de cultura financiera que existe en México:
+
+![ahorro](https://i.ibb.co/d2hScJv/25nov18-ahorro.gif)
+![ahorro](https://i.ibb.co/TwFjfF1/ahorro.jpg)
+![habitos](https://i.ibb.co/GxwGHzT/habitos.jpg)
+![nivelsocioeconomico]https://i.ibb.co/48DLxD2/nivel-socie.jpg()
+![quien ahorra](https://i.ibb.co/fHGqZDs/quien-ahorra.jpg)
+![tandas](https://i.ibb.co/9413dsG/tandas.jpg)
+![muestra](https://i.ibb.co/G7wt4bx/muestra.jpg)
+![herramientas](https://i.ibb.co/VYZsHsr/herra.jpg)
+
+En la encuesta realizada en Marzo de 2017 con una muestra de 1000 personas podemos checar los siguientes hallazgos:
+-          Más del 34.8% de los mexicanos menciona que el salario no le está rindiendo para poder realizar ahorros, sin embargo el 30% menciona si ahorrar pero para casos de emergencia es decir no ahorra en el banco.
+-          La costumbre que se tenía de participar en tandas va en descenso con 7.4 puntos porcentuales y en aumento el uso caja de ahorro que es un parteaguas para algunas empresas que se están dando a la tarea de realizar este tipo de método de ahorro.
+-          En general la población que puede ahorrar en el banco son de nivel socioeconómico alto pero ¿Por qué el nivel Medio y bajo aún no pueden bancarizarse?
+
 
 ## Problema
 
 Como Ux designer se nos asignó la tarea de hacer un rediseño del prototipo que nos da una empresa ficticia con el contexto ya mencionado, con la data que obtuvimos y con nuestro trabajo de campo realizar los cambios necesarios para generar una app centrada en nuestro usuario y sus necesidades.
 
-Sabemos que quiere adentrarse a los usuarios que son jóvenes o que se encuentran en el rango de edades de 18 a 33 años, ya que esta generación está adentrandose al sector financiero y es muy importante mantenerlos.
+Sabemos que quiere adentrarse a los usuarios que son jóvenes o que se encuentran en el rango de edades de 18 a 33 años, ya que esta generación está entrando de lleno al mundo laboral y necesitan atraer a estos nuevos clientes y retenerlos.
 
 ![problema](https://i.ibb.co/c2VL4rG/fish.jpg)
+
+Sabemos que 
 
 
 
@@ -230,12 +247,57 @@ Sugerencias:
 -puede mejorar
 -ahorro a largo plazo (poner cta de ahorro para viajes, etc)
 -ahorrar en parejas
--preestablecer categorías y seleccionarlas con un click
+-restablecer categorías y seleccionarlas con un click
 -calculadora interna
 -incluir metas de ahorro
 -asignación de categorías con subcategorías para gráfica mejor detallada
 -modo presupuestos
 
+![radar fintech](https://i.ibb.co/bQs4N35/Mexico-FR-PNG.png)
+
+Dentro del benchmark que realice se generó un recuento de la información recopilada señala a Ciudad de México como la ciudad con mayor número de startups Fintech constituidas, pues el 61% de las startups encuestadas la sitúan como su ciudad de origen, seguida por Guadalajara, con el 9%, Monterrey, con el 6%, Mérida con el 4% y Puebla con el 2%. Respecto a los procesos de internacionalización, el 83% de las startups Fintech encuestadas afirma que solo opera en México, mientras que el 17% ya opera fuera de las fronteras mexicanas. 
+
+## Retos de Diseño
+
+Propuestas que se borraron.
+
+1.       La primer propuesta que se genera es la necesidad de abarcar el mercado que se encuentra desplazado, generando un prototipo promoviendo el uso en el sistema operativo Android.
+ 
+2.       La segunda propuesta es realizar un rediseño de los íconos que se identificaron como confusos, como el ejemplo del icono del ahorro, se desea de igual forma integrar el ícono de notificaciones al momento de generar el registro del ahorro para minimizar pasos.
+ 
+3.       La tercera es simplificar la interactividad de los usuarios con menos pasos añadiendo en la barra de herramientas algunas de las opciones para mejorar la rapidez dentro de la interfaz.
+ 
+4.       El cuarto reto de diseño es mejorar la intuición y prevenir los errores, para ello realizaremos una mini guía que informe al usuario y que obligue a los usuarios a generar su prueba inicial, para que conozca todos los servicios que se ofrecerán en la app.
+ 
+5.       El quinto reto queremos enfocarlo a la formulación de una forma de ahorro compartido ya que a los usuarios les gusta compartir experiencias de distintas formas, y decidimos generar este reto.
+ 
+6.       Al generar una app de banca con esta finalidad de ahorrar estas ofreciéndole un servicio complementario, sin embargo se le están requiriendo datos confidenciales por lo cual se decide ingresar el acuerdo de confidencialidad de datos.
+
+7. Otro importante reto es el darle una personalidad a nuestra app ya que descubrimos que a pesar de que sabían que era una app acerca de finanzas no sienten confianza debido a que no saben de qué banco en particular es.
+8. Gamification es otro reto de diseño que se desea abarcar para que el usuario busque estos motivadores extrínsecos, para hacer las cosas, esto también porque esta generación necesita otro tipo de motivadores ya que su educación fue distinta.
+
+**Argumentos de los retos de diseño:**
+
+- En el primer reto de diseño lo elegí debido a que gran parte de la población en México utiliza este sistema operativo. Teniendo en cuenta que los mexicanos prefieren Android, pues el 79% del mercado utiliza este sistema operativo, mientras que 21% se decanta por iOS. 
+
+- El segundo reto se eligió conforme a las Heurísticas de Nielsen que tanta relación tienen con el mundo real los iconos descubrimos en la investigación de campo, que no les hacía relación el icono de ahorro con la caja fuerte por lo cual decidimos ingresar un  icono que asemejara como lo es el cochinito.
+
+- De igual forma el tercer reto de diseño me base en las Heurísticas y se formuló debido al nivel de dificultad que se pretende en la app, es necesario agregar en la barra desplegable algunas funcionalidades para que el usuario se adecúe a su perfil de ahorro. 
+
+- El cuarto se eligió con relación con el benchmark que se realizó ya que descubrimos que las aplicaciones tienen en un inicio este tipo de manual rápido y al grano.
+
+- El quinto reto se pretende implementar una forma de ahorro compartido que se formula a partir de la PM que indicó que si tenían en mente agregar una tanda pero estaba la idea en el aire.
+
+- Este reto de diseño lo decidí debido a la ley de privacidad de datos que permite al usuario saber que tiene un respaldo para que no utilicen su información de manera incorrecta.
+
+- Este reto es importante porque el usuario siempre se relaciona con el branding y se identifican más con esta marca.
+
+- El último reto lo decidí implementar con respecto al user-persona que me di cuenta que su carácter y su forma de aprendizaje es distinta a la de otras generaciones y me gustaría enfocarme al testing a ver si de verdad les interesaría este tipo de motivadores.
+
+### Diagrama de Flujos
+
+
+## Prototipo de Alta Fidelidad
 ### Casos de uso
 ### Journey Map
 ### Storytelling
@@ -248,11 +310,5 @@ Sugerencias:
 ### Mapa de contenidos
 
 ## Navegación
-
-### Diagrama de Flujos
-
-### Prototipo de Baja Fidelidad
-
-### Prototipo de Alta Fidelidad
 
 ## Wireframes
