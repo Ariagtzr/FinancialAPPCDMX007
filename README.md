@@ -56,9 +56,9 @@ Para entender un poco el contexto se encontró una investigación que se dirigí
 ![herramientas](https://i.ibb.co/VYZsHsr/herra.jpg)
 
 En la encuesta realizada en Marzo de 2017 con una muestra de 1000 personas podemos checar los siguientes hallazgos:
--          Más del 34.8% de los mexicanos menciona que el salario no le está rindiendo para poder realizar ahorros, sin embargo el 30% menciona si ahorrar pero para casos de emergencia es decir no ahorra en el banco.
--          La costumbre que se tenía de participar en tandas va en descenso con 7.4 puntos porcentuales y en aumento el uso caja de ahorro que es un parteaguas para algunas empresas que se están dando a la tarea de realizar este tipo de método de ahorro.
--          En general la población que puede ahorrar en el banco son de nivel socioeconómico alto pero ¿Por qué el nivel Medio y bajo aún no pueden bancarizarse?
+- Más del 34.8% de los mexicanos menciona que el salario no le está rindiendo para poder realizar ahorros, sin embargo el 30% menciona si ahorrar pero para casos de emergencia es decir no ahorra en el banco.
+- La costumbre que se tenía de participar en tandas va en descenso con 7.4 puntos porcentuales y en aumento el uso caja de ahorro que es un parteaguas para algunas empresas que se están dando a la tarea de realizar este tipo de método de ahorro.
+- En general la población que puede ahorrar en el banco son de nivel socioeconómico alto pero ¿Por qué el nivel Medio y bajo aún no pueden bancarizarse?
 
 
 ## Problema
@@ -261,17 +261,17 @@ Dentro del benchmark que realice se generó un recuento de la información recop
 
 Propuestas que se borraron.
 
-1.       La primer propuesta que se genera es la necesidad de abarcar el mercado que se encuentra desplazado, generando un prototipo promoviendo el uso en el sistema operativo Android.
+1. La primer propuesta que se genera es la necesidad de abarcar el mercado que se encuentra desplazado, generando un prototipo promoviendo el uso en el sistema operativo Android.
  
-2.       La segunda propuesta es realizar un rediseño de los íconos que se identificaron como confusos, como el ejemplo del icono del ahorro, se desea de igual forma integrar el ícono de notificaciones al momento de generar el registro del ahorro para minimizar pasos.
+2. La segunda propuesta es realizar un rediseño de los íconos que se identificaron como confusos, como el ejemplo del icono del ahorro, se desea de igual forma integrar el ícono de notificaciones al momento de generar el registro del ahorro para minimizar pasos.
  
-3.       La tercera es simplificar la interactividad de los usuarios con menos pasos añadiendo en la barra de herramientas algunas de las opciones para mejorar la rapidez dentro de la interfaz.
+3. La tercera es simplificar la interactividad de los usuarios con menos pasos añadiendo en la barra de herramientas algunas de las opciones para mejorar la rapidez dentro de la interfaz.
  
-4.       El cuarto reto de diseño es mejorar la intuición y prevenir los errores, para ello realizaremos una mini guía que informe al usuario y que obligue a los usuarios a generar su prueba inicial, para que conozca todos los servicios que se ofrecerán en la app.
+4. El cuarto reto de diseño es mejorar la intuición y prevenir los errores, para ello realizaremos una mini guía que informe al usuario y que obligue a los usuarios a generar su prueba inicial, para que conozca todos los servicios que se ofrecerán en la app.
  
-5.       El quinto reto queremos enfocarlo a la formulación de una forma de ahorro compartido ya que a los usuarios les gusta compartir experiencias de distintas formas, y decidimos generar este reto.
+5. El quinto reto queremos enfocarlo a la formulación de una forma de ahorro compartido ya que a los usuarios les gusta compartir experiencias de distintas formas, y decidimos generar este reto.
  
-6.       Al generar una app de banca con esta finalidad de ahorrar estas ofreciéndole un servicio complementario, sin embargo se le están requiriendo datos confidenciales por lo cual se decide ingresar el acuerdo de confidencialidad de datos.
+6. Al generar una app de banca con esta finalidad de ahorrar estas ofreciéndole un servicio complementario, sin embargo se le están requiriendo datos confidenciales por lo cual se decide ingresar el acuerdo de confidencialidad de datos.
 
 7. Otro importante reto es el darle una personalidad a nuestra app ya que descubrimos que a pesar de que sabían que era una app acerca de finanzas no sienten confianza debido a que no saben de qué banco en particular es.
 8. Gamification es otro reto de diseño que se desea abarcar para que el usuario busque estos motivadores extrínsecos, para hacer las cosas, esto también porque esta generación necesita otro tipo de motivadores ya que su educación fue distinta.
